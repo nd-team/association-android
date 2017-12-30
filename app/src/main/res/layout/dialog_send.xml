@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="@dimen/border_10"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/border_10"
+            android:text="申请留言" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/border_10"
+
+            android:src="@mipmap/cancel_btn" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/edit_text"
+        android:gravity="left|top"
+        android:hint="交个朋友吧"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:textColorHint="@color/color_99" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/border_10"
+        android:background="@mipmap/confirmation_add"
+        android:padding="@dimen/border_10"
+        android:text="确认添加好友"
+        android:textColor="@color/contact_list_item_bk"
+        android:textSize="@dimen/font_32" />
+</LinearLayout>

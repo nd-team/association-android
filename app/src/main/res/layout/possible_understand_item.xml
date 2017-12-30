@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_item"
+    android:orientation="vertical">
+
+    <com.ike.sq.alliance.ui.widget.image.CircleImageView
+        android:id="@+id/iv_possible_understand_item_header"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="27px"
+        android:layout_marginTop="25px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18px"
+        android:layout_toRightOf="@+id/iv_possible_understand_item_header"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_possible_understand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_possible_understand_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="皮皮虾又调皮了"
+                android:textColor="@color/col_121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_possible_understand_item_sex"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="8dp"
+                android:src="@mipmap/mine_man" />
+
+            <TextView
+                android:id="@+id/tv_possible_understand_item_relation"
+                android:layout_width="30dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="6dp"
+                android:background="@mipmap/relation"
+                android:gravity="center"
+                android:text="同事"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_possible_understand_item_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ike123"
+            android:textColor="@color/color_66"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_possible_understand_item_sameNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+
+            android:textColor="@color/color_66"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_possible_understand_join"
+        android:layout_width="164px"
+        android:layout_height="60px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20px"
+        android:background="@mipmap/interest_join"
+        android:text="+ 好友"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>
