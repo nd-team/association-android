@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="col_444343">#444343</color>
+    <color name="col_10DB9F">#10DB9F</color>
+    <color name="col_999999">#999</color>
+
+    <color name="contact_name_color">#222222</color>
+    <color name="md_grey_400">#bdbdbd</color>
+    <color name="list_item_sel_color">#eaeaea</color>
+    <color name="contact_default_bk">#dedee0</color>
+    <color name="contact_list_item_bk">#ffffff</color>
+    <color name="default_title_color">#343434</color>
+    <color name="default_blue_color">#01aff4</color>
+    <color name="color_66">#666666</color>
+    <color name="color_99">#999999</color>
+    <color name="color_33">#333333</color>
+
+    <color name="col_121212">#121212</color>
+    <color name="col_C0C0C0">#C0C0C0</color>
+    <color name="col_ECEEF0">#eceef0</color>
+    <color name="light_gray_2">#f0f2f6</color>
+    <color name="dark_gray_1">#051b28</color>
+    <color name="click_bg">#d9d9d9</color>
+    <color name="light_blue2">#503097e6</color>
+    <color name="light_blue1">#3097e6</color>
+    <color name="light_gray_6">#aaaaaa</color>
+    <color name="middle_gray_1">#999999</color>
+    <color name="zz_half_transparent">#7f000000</color>
+</resources>
